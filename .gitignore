@@ -15,7 +15,9 @@
 ## Ulauncher
 !.config/ulauncher/
 !.config/ulauncher/*
-
+## LunarVim
+!.config/lvim
+!.config/lvim/config.lua
 
 # ssh config (no keys)
 !.ssh/
