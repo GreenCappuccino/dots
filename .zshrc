@@ -104,3 +104,5 @@ export PATH=/home/cappy/.local/share/JetBrains/Toolbox/scripts:$PATH
 export PATH=/home/cappy/.local/bin:$PATH
 export GPG_TTY=$TTY
 source <(helm completion zsh)
+export NVS_HOME="$HOME/.nvs"
+[ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
