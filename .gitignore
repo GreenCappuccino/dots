@@ -1,0 +1,28 @@
+# Make this .gitignore a whitelist
+*
+*/*
+!.gitignore
+
+# "Run Command" files
+!.zshrc
+!.nanorc
+
+# Config
+!.config/
+## WezTerm
+!.config/wezterm/
+!.config/wezterm/*
+## Ulauncher
+!.config/ulauncher/
+!.config/ulauncher/*
+## Discord
+!.config/discord/
+!.config/discord/settings.json
+
+# ssh config (no keys)
+!.ssh/
+!.ssh/config
+
+# Kubernetes client config
+!.kube/
+!.kube/*
