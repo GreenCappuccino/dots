@@ -15,9 +15,7 @@
 ## Ulauncher
 !.config/ulauncher/
 !.config/ulauncher/*
-## Discord
-!.config/discord/
-!.config/discord/settings.json
+
 
 # ssh config (no keys)
 !.ssh/
