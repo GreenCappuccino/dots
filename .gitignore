@@ -18,6 +18,9 @@
 ## LunarVim
 !.config/lvim
 !.config/lvim/config.lua
+## logiops/logid
+!.config/logid
+!.config/logid/*
 
 # ssh config (no keys)
 !.ssh/
