@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+bindkey -s '^L' 'clear^M'
+
 export PATH=/home/cappy/.local/share/JetBrains/Toolbox/scripts:$PATH
 export PATH=/home/cappy/.local/bin:$PATH
 export GPG_TTY=$TTY
