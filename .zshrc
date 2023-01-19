@@ -105,6 +105,8 @@ alias k="kubectl"
 export PATH=/home/cappy/.local/share/JetBrains/Toolbox/scripts:$PATH
 export PATH=/home/cappy/.local/bin:$PATH
 export GPG_TTY=$TTY
+source <(kubectl completion zsh)
+compdef _kubectl k
 source <(helm completion zsh)
 export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
