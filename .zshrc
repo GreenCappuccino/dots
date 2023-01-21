@@ -104,6 +104,7 @@ alias k="kubectl"
 
 export PATH=/home/cappy/.local/share/JetBrains/Toolbox/scripts:$PATH
 export PATH=/home/cappy/.local/bin:$PATH
+export PATH=$HOME/.istioctl/bin:$PATH
 export GPG_TTY=$TTY
 source <(kubectl completion zsh)
 compdef _kubectl k
