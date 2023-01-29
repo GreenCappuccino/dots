@@ -1,3 +1,4 @@
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -111,3 +112,7 @@ compdef _kubectl k
 source <(helm completion zsh)
 export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
