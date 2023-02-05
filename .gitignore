@@ -21,6 +21,9 @@
 ## logiops/logid
 !.config/logid
 !.config/logid/*
+## Flameshot
+!.config/flameshot
+!.config/flameshot/*
 
 # ssh config (no keys)
 !.ssh/
