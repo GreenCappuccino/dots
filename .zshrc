@@ -117,3 +117,4 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 export GOPATH=$HOME/go
 source "$HOME/.cargo/env"
+source <(gh completion -s zsh)
