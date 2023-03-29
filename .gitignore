@@ -2,6 +2,7 @@
 *
 */*
 !.gitignore
+!.gitmodules
 
 # "Run Command" files
 !.zshrc
@@ -12,6 +13,9 @@
 ## WezTerm
 !.config/wezterm/
 !.config/wezterm/*
+## Kitty
+!.config/kitty/
+!.config/kitty/*
 ## Ulauncher
 !.config/ulauncher/
 !.config/ulauncher/*
