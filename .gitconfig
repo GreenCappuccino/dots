@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Brian Lu
+	email = me@greencappuccino.net
+	signingkey = E3769F88487B36343E97B90EA96D4D81BF36A735
+[commit]
+	gpgsign = true
+[pull]
+	rebase = false
+[push]
+	autoSetupRemote = true

@@ -3,6 +3,7 @@
 */*
 !.gitignore
 !.gitmodules
+!.gitconfig
 
 # "Run Command" files
 !.zshrc
