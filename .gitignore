@@ -29,6 +29,8 @@
 ## Flameshot
 !.config/flameshot
 !.config/flameshot/*
+## GNOME Settings
+!.config/gnome-extensions-sync
 
 # ssh config (no keys)
 !.ssh/
