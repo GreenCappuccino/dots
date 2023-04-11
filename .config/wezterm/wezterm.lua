@@ -1,9 +1,9 @@
 local wezterm = require 'wezterm'
 return {
   font = wezterm.font {
-    family = 'DaddyTimeMono Nerd Font Mono',
+    family = 'DaddyTimeMono Nerd Font',
   },
-  font_size = 14.0,
+  font_size = 12.0,
   color_scheme = "Sex Colors (terminal.sexy)",
   keys = {
     {
