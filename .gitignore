@@ -11,6 +11,10 @@
 
 # Config
 !.config/
+## fish
+!.config/fish/
+!.config/fish/*
+!.config/fish/**/*
 ## WezTerm
 !.config/wezterm/
 !.config/wezterm/*
