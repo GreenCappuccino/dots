@@ -26,6 +26,7 @@
 !.config/kitty/
 !.config/kitty/*
 ## wayland xhost
+!.config/autostart/
 !.config/autostart/wayland-xhost-local.desktop
 ## Ulauncher
 !.config/ulauncher/
