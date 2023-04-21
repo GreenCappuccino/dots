@@ -42,6 +42,10 @@
 !.config/flameshot/*
 ## GNOME Settings
 !.config/gnome-extensions-sync
+## FreeCAD
+!.config/FreeCAD/
+!.config/FreeCAD/user.cfg
+!.config/FreeCAD/system.cfg
 
 # ssh config (no keys)
 !.ssh/
