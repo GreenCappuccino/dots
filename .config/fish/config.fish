@@ -9,3 +9,5 @@ function fish_right_prompt
     set -l toolbox (basename "$TOOLBOX_PATH")
     printf '%s' "$toolbox"
 end
+
+thefuck --alias | source
