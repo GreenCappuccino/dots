@@ -1,5 +1,6 @@
 local wezterm = require 'wezterm'
 return {
+  scrollback_lines = 1048576,
   use_fancy_tab_bar = false,
   tab_bar_at_bottom = true,
   window_padding = {
