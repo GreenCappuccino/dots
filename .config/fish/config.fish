@@ -9,3 +9,9 @@ function fish_right_prompt
     set -l toolbox (cat /etc/hostname)
     printf '%s' "$toolbox"
 end
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /var/home/cappy/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+
