@@ -11,48 +11,23 @@
 
 # Config
 !.config/
-## fish
-!.config/fish/
-!.config/fish/*
-!.config/fish/**/*
-.config/fish/completions/poetry.fish
-## oh-my-fish
-!.config/omf/
-!.config/omf/*
 ## WezTerm
 !.config/wezterm/
 !.config/wezterm/*
 ## Kitty
 !.config/kitty/
 !.config/kitty/*
-## wayland xhost
-!.config/autostart/
-!.config/autostart/wayland-xhost-local.desktop
-## Ulauncher
-!.config/ulauncher/
-!.config/ulauncher/*
-## LunarVim
-!.config/lvim
-!.config/lvim/config.lua
 ## logiops/logid
 !.config/logid
 !.config/logid/*
-## Flameshot
-!.config/flameshot
-!.config/flameshot/*
 ## GNOME Settings
 !.config/gnome-extensions-sync
-## FreeCAD
-!.config/FreeCAD/
-!.config/FreeCAD/user.cfg
-!.config/FreeCAD/system.cfg
 
 # ssh config (no keys)
 !.ssh/
 !.ssh/config
 !.ssh/environment
-!.ssh/toolbox-code-ssh.sh
 
 # Kubernetes client config
 !.kube/
-!.kube/*
+!.kube/config
