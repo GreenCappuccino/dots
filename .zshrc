@@ -4,6 +4,7 @@ compinit
 eval "$(oh-my-posh init zsh --config ~/tiwahu.omp.json)"
 
 alias k="kubectl"
+export PATH=/usr/local/go/bin:$PATH
 export PATH=/home/cappy/.local/share/JetBrains/Toolbox/scripts:$PATH
 export PATH=/home/cappy/.local/bin:$PATH
 export PATH=$HOME/.istioctl/bin:$PATH
