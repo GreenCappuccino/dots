@@ -20,9 +20,8 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 export GOPATH=$HOME/go
 source "$HOME/.cargo/env"
 source <(gh completion -s zsh)
-source <(dagger completion zsh)
 
-export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense' # optional
+export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense,cobra' # optional
 zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
 source <(carapace _carapace)
 
